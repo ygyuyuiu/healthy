@@ -309,3 +309,33 @@ body {
   padding-bottom: 95px;
   border-bottom: 1px solid rgba(31, 30, 30, 0.1);
 }
+
+.advertising__container {
+}
+.advertising__box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 9px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.advertising__img {
+}
+.advertising__title {
+  background-color: rgba(244, 237, 230, 1);
+}
+.advertising__text {
+  font-size: 52px;
+  color: var(--color-green);
+  max-width: 439px;
+  text-align: center;
+  margin: 150px 53px 157px 54px;
+}
+.advertising__subtitle {
+  display: inline-block;
+  margin-left: 146px;
+  margin-right: 127px;
+  font-size: 9px;
+  color: var(--color-green);
+  text-transform: uppercase;
+}
