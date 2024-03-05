@@ -88,3 +88,112 @@ body {
   margin: 0 auto;
   border: 2px solid red;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(img/promo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+  flex-wrap: wrap;
+}
+
+.header__list-item :nth-child(1) {
+  margin-left: 42px;
+}
+.header__link {
+  color: var(--color-white);
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 2px;
+  cursor: pointer;
+}
+.header__possibilities {
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+  flex-wrap: wrap;
+}
+
+.header__span {
+  display: inline-block;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.header__span:nth-child(4) {
+  margin-right: 41px;
+}
+
+.promo__container {
+  position: relative;
+  min-height: 683px;
+}
+.promo__title {
+  max-width: 450px;
+  margin-top: 69px;
+  margin-left: 42px;
+  /* border: 1px solid black; */
+}
+.promo__heading {
+  font-size: 63px;
+  line-height: 65px;
+  color: var(--color-white);
+}
+.promo__link-shop {
+  padding: 15px 56px 15px 57px;
+  border: 1px solid var(--color-black);
+  background-color: var(--color-black);
+  border-radius: 4px;
+  color: var(--color-white);
+  display: inline-block;
+  font-size: 9px;
+  margin-top: 36px;
+}
+.promo__cookies {
+  max-width: 286px;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  position: absolute;
+  right: 75px;
+  bottom: 47px;
+}
+.promo__cookies-title {
+  font-size: 11px;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.promo__cookies-text {
+  line-height: 17px;
+  font-size: 9px;
+}
+.promo__cookies-form {
+  margin-top: 18px;
+  /* border: 1px solid black; */
+}
+.promo__cookies-button {
+  font-size: 8px;
+  color: var(--color-dark);
+  padding: 5px;
+  background-color: transparent;
+  display: inline-block;
+  margin-left: 36px;
+}
+
+.promo__cookies-button_color {
+  color: var(--color-white);
+}
