@@ -224,12 +224,6 @@ body {
   font-size: 9px;
 }
 
-.drop {
-}
-.container {
-}
-.drop__container {
-}
 .drop__heading {
   color: var(--color-black);
   font-size: 125px;
@@ -271,7 +265,6 @@ body {
   color: var(--color-green);
   font-size: 9px;
 }
-
 .drop__second-line {
   display: flex;
   flex-direction: row;
@@ -285,4 +278,34 @@ body {
 }
 .drop__link-shop {
   margin-top: 45px;
+}
+
+.title__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title__box {
+  text-transform: uppercase;
+  max-width: 681px;
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title__span {
+  display: inline-block;
+  font-size: 9px;
+  margin-bottom: 16px;
+  margin-top: 112px;
+}
+.title__text {
+  font-size: 38px;
+  line-height: 45px;
+  text-indent: 62px;
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 95px;
+  border-bottom: 1px solid rgba(31, 30, 30, 0.1);
 }
